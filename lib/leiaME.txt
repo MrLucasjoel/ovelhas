@@ -1,0 +1,39 @@
+O novo projeto de Ovelhas...
+
+Para instalar e configurar o Hive no seu projeto Flutter, você precisa adicionar as dependências necessárias ao arquivo pubspec.yaml.
+
+1. Criando um novo projeto de Flutter (android).
+- flutter create --platforms android ovelhas
+
+=============================================================================|
+                                                                             |
+2. Adicionar dependências.                                                   |
+- flutter pub add hive hive_flutter                                          |========================================|
+                                                                             |                                        |
+========== OU ===============================================================|                                        |============================
+                                                                             |                                        |
+3. (Opcional, mas recomendado) Adicionar dependências de geração de código.  |========================================|
+- flutter pub add hive_generator build_runner --dev                          |
+                                                                             |
+=== DEPOIS ==================================================================|
+
+4. Executar.
+- flutter pub get
+
+({
+    dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+})
+==================================================================================================================================================
+
+========= Porque do projeto?? ===============================
+
+Esse projeto sobre um cadastramendo de ovelhas foi desenvolvido na aula de Flutter pelo professo Márcio, mas para estimular o enunciado
+para ser oque o nosso futuro chefe vai nos passar e nos cobrar.
+Para nos treinar a não ser uma coisa muito futuristicas e não muito simples, ser oq exatamente ele pediu!
+
+É um cadastramendo de ovelhas de raças, onde eu posso dizer o número de RFID e a raças delas (Santa Inês, Dorper, Texel) e tbm a idades da ovelhas.
+Com bottom splach. 
